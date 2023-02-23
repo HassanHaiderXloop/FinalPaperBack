@@ -1,15 +1,19 @@
-package com.example.final_exam.Entity;
+package com.example.demo.Entity;
+import org.springframework.web.bind.annotation.CrossOrigin;
+
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-
+@CrossOrigin
 @Entity
+@Builder
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
